@@ -1,4 +1,12 @@
 # V8Harvest  
+usage:
+
+```
+pip3 install tqdm
+pip3 install gitpython
+python3 ./v8harvest.py xxyour_dir_of_v8xxx
+```
+
 V8Harvest helps view recent V8 bug patterns on a single page for analyzing V8 vulnerabilities.  
 It has parsed all regress-* files under the directory of [src/v8/test/mjsunit/](https://cs.chromium.org/chromium/src/v8/test/mjsunit/) using git log.
 Each regress contains the following links related to its own information:  
